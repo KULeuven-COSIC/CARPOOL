@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.CARPOOL"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.software.companion_device_setup" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.CARPOOL" >
+        <activity android:name="com.example.CARPOOL.SyncAddrActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.LEbeaconActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivityV2" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineLEbeaconActivity" />
+        <activity android:name="com.example.CARPOOL.Bluetooth.EddystoneActivity" />
+        <activity android:name="com.example.CARPOOL.TryForInternetActivity" />
+        <activity android:name="com.example.CARPOOL.RegisterActivity" />
+        <activity android:name="com.example.CARPOOL.ErrorActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.ScannerActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.AudioActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.BluetoothPairedActivity" />
+        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineBluetoothPairedActivity" />
+        <activity
+            android:name="com.example.CARPOOL.PolicyStart"
+            android:label="Policy Start" />
+        <activity android:name="com.example.CARPOOL.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.altbeacon.beacon.service.BeaconService"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="false"
+            android:label="beacon" />
+        <service
+            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="org.altbeacon.beacon.service.ScanJob"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="immediateScanJobId"
+                android:value="208352939" />
+            <meta-data
+                android:name="periodicScanJobId"
+                android:value="208352940" />
+        </service>
+        <service
+            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="jobId"
+                android:value="1799803768" />
+        </service>
+    </application>
+
+</manifest>

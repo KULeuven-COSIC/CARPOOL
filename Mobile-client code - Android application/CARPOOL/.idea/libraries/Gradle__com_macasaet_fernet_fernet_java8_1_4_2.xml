@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.macasaet.fernet:fernet-java8:1.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.macasaet.fernet/fernet-java8/1.4.2/99fdb497b30ebd95f497114a4fe0b00720343669/fernet-java8-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.macasaet.fernet/fernet-java8/1.4.2/a770cccf9f154be050c58ee8ed794073e99653e/fernet-java8-1.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.macasaet.fernet/fernet-java8/1.4.2/9fa2233e7300d73fdc2455f4e428fac5814a0958/fernet-java8-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.CARPOOL"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission
+14-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:8:5-68
+15        android:name="android.permission.BLUETOOTH"
+15-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:8:22-65
+16        android:required="false" />
+16-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:12:9-33
+17    <uses-permission
+17-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:9:5-74
+18        android:name="android.permission.BLUETOOTH_ADMIN"
+18-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:9:22-71
+19        android:required="false" />
+19-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:15:9-33
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:10:5-79
+20-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:11:5-71
+21-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:11:22-68
+22
+23    <uses-feature android:name="android.software.companion_device_setup" />
+23-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:13:5-76
+23-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:13:19-73
+24
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:16:5-81
+25-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:16:22-78
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:17:5-81
+26-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:17:22-78
+27
+28    <application
+28-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:15:5-46:19
+29        android:allowBackup="true"
+29-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.3.2] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\d2fab01d17c089ea45014664a05aa8a0\core-1.3.2\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:17:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:18:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:19:9-69
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:20:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:21:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.CARPOOL" >
+39-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:22:9-45
+40        <activity android:name="com.example.CARPOOL.SyncAddrActivity" />
+40-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:23:9-54
+40-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:23:19-51
+41        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.LEbeaconActivity" />
+41-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:24:9-76
+41-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:24:19-73
+42        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivity" />
+42-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:25:9-83
+42-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:25:19-80
+43        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivityV2" />
+43-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:26:9-85
+43-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:26:19-82
+44        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineLEbeaconActivity" />
+44-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:27:9-84
+44-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:27:19-81
+45        <activity android:name="com.example.CARPOOL.Bluetooth.EddystoneActivity" />
+45-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:28:9-65
+45-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:28:19-62
+46        <activity android:name="com.example.CARPOOL.TryForInternetActivity" />
+46-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:29:9-60
+46-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:29:19-57
+47        <activity android:name="com.example.CARPOOL.RegisterActivity" />
+47-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:30:9-54
+47-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:30:19-51
+48        <activity android:name="com.example.CARPOOL.ErrorActivity" />
+48-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:31:9-51
+48-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:31:19-48
+49        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.ScannerActivity" />
+49-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:32:9-75
+49-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:32:19-72
+50        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.AudioActivity" />
+50-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:33:9-73
+50-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:33:19-70
+51        <activity android:name="com.example.CARPOOL.DeviceHandlers.Online.BluetoothPairedActivity" />
+51-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:34:9-83
+51-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:34:19-80
+52        <activity android:name="com.example.CARPOOL.DeviceHandlers.Offline.OfflineBluetoothPairedActivity" />
+52-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:35:9-91
+52-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:35:19-88
+53        <activity
+53-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:36:9-38:44
+54            android:name="com.example.CARPOOL.PolicyStart"
+54-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:37:13-40
+55            android:label="Policy Start" />
+55-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:38:13-41
+56        <activity android:name="com.example.CARPOOL.MainActivity" >
+56-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:39:9-45:20
+56-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:39:19-47
+57            <intent-filter>
+57-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:40:13-44:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:41:17-69
+58-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:41:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:43:17-77
+60-->C:\Users\sayon\Documents\codes\Android\CARPOOL\app\src\main\AndroidManifest.xml:43:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <receiver
+64-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:20:9-28:20
+65            android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver"
+65-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:21:13-81
+66            android:exported="false" >
+66-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:22:13-37
+67            <intent-filter>
+67-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:23:13-27:29
+68                <action android:name="android.intent.action.BOOT_COMPLETED" />
+68-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:24:17-79
+68-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:24:25-76
+69                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+69-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:25:17-87
+69-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:25:25-84
+70                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+70-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:26:17-90
+70-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:26:25-87
+71            </intent-filter>
+72        </receiver>
+73
+74        <service
+74-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:30:9-35:38
+75            android:name="org.altbeacon.beacon.service.BeaconService"
+75-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:31:13-70
+76            android:enabled="true"
+76-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:32:13-35
+77            android:exported="false"
+77-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:33:13-37
+78            android:isolatedProcess="false"
+78-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:34:13-44
+79            android:label="beacon" />
+79-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:35:13-35
+80        <service
+80-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:36:9-39:40
+81            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+81-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:37:13-70
+82            android:enabled="true"
+82-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:38:13-35
+83            android:exported="false" />
+83-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:39:13-37
+84        <service
+84-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:40:9-50:19
+85            android:name="org.altbeacon.beacon.service.ScanJob"
+85-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:41:13-64
+86            android:exported="false"
+86-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:42:13-37
+87            android:permission="android.permission.BIND_JOB_SERVICE" >
+87-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:43:13-69
+88            <meta-data
+88-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:44:13-46:45
+89                android:name="immediateScanJobId"
+89-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:45:17-50
+90                android:value="208352939" />
+90-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:46:17-42
+91            <meta-data
+91-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:47:13-49:45
+92                android:name="periodicScanJobId"
+92-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:48:17-49
+93                android:value="208352940" />
+93-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:49:17-42
+94        </service>
+95        <service
+95-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:51:9-58:19
+96            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+96-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:52:13-68
+97            android:exported="false"
+97-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:53:13-37
+98            android:permission="android.permission.BIND_JOB_SERVICE" >
+98-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:54:13-69
+99            <meta-data
+99-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:55:13-57:46
+100                android:name="jobId"
+100-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:56:17-37
+101                android:value="1799803768" />
+101-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\sayon\.gradle\caches\transforms-2\files-2.1\148669603506200d795b3e890d713afb\android-beacon-library-2.19.5-beta9\AndroidManifest.xml:57:17-43
+102        </service>
+103    </application>
+104
+105</manifest>

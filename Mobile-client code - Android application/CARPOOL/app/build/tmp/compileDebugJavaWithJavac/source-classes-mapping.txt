@@ -1,0 +1,87 @@
+com/example/CARPOOL/DeviceHandlers/Offline/OfflineScannerActivityV2.java
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivityV2
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivityV2$1
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineScannerActivityV2$1$1
+com/example/CARPOOL/IoTDevices/Device.java
+ com.example.CARPOOL.IoTDevices.Device
+com/example/CARPOOL/RegisterActivity.java
+ com.example.CARPOOL.RegisterActivity
+ com.example.CARPOOL.RegisterActivity$1
+ com.example.CARPOOL.RegisterActivity$2
+com/example/CARPOOL/RoomAndPolicy/Room.java
+ com.example.CARPOOL.RoomAndPolicy.Room
+com/example/CARPOOL/BuildConfig.java
+ com.example.CARPOOL.BuildConfig
+com/example/CARPOOL/MainActivity.java
+ com.example.CARPOOL.MainActivity
+ com.example.CARPOOL.MainActivity$1
+ com.example.CARPOOL.MainActivity$2
+ com.example.CARPOOL.MainActivity$3
+ com.example.CARPOOL.MainActivity$4
+com/example/CARPOOL/ErrorActivity.java
+ com.example.CARPOOL.ErrorActivity
+ com.example.CARPOOL.ErrorActivity$1
+com/example/CARPOOL/DeviceHandlers/Online/ScannerActivity.java
+ com.example.CARPOOL.DeviceHandlers.Online.ScannerActivity
+ com.example.CARPOOL.DeviceHandlers.Online.ScannerActivity$1
+ com.example.CARPOOL.DeviceHandlers.Online.ScannerActivity$1$1
+com/example/CARPOOL/DeviceHandlers/Online/AudioActivity.java
+ com.example.CARPOOL.DeviceHandlers.Online.AudioActivity
+ com.example.CARPOOL.DeviceHandlers.Online.AudioActivity$1
+ com.example.CARPOOL.DeviceHandlers.Online.AudioActivity$2
+com/example/CARPOOL/CommunicationUtils/CreateMessage.java
+ com.example.CARPOOL.CommunicationUtils.CreateMessage
+com/example/CARPOOL/Bluetooth/BluetoothProcedure.java
+ com.example.CARPOOL.Bluetooth.BluetoothProcedure
+ com.example.CARPOOL.Bluetooth.BluetoothProcedure$ConnectThread
+ com.example.CARPOOL.Bluetooth.BluetoothProcedure$ConnectedThread
+com/example/CARPOOL/CommunicationUtils/CryptoUtils.java
+ com.example.CARPOOL.CommunicationUtils.CryptoUtils
+ com.example.CARPOOL.CommunicationUtils.CryptoUtils$1
+com/example/CARPOOL/DeviceHandlers/Offline/OfflineLEbeaconActivity.java
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineLEbeaconActivity
+com/example/CARPOOL/IoTDevices/BLEDevice.java
+ com.example.CARPOOL.IoTDevices.BLEDevice
+com/example/CARPOOL/DeviceHandlers/Offline/OfflineBluetoothPairedActivity.java
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineBluetoothPairedActivity
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineBluetoothPairedActivity$1
+ com.example.CARPOOL.DeviceHandlers.Offline.OfflineBluetoothPairedActivity$2
+com/example/CARPOOL/RoomAndPolicy/ReadRP.java
+ com.example.CARPOOL.RoomAndPolicy.ReadRP
+com/example/CARPOOL/DeviceHandlers/Online/LEbeaconActivity.java
+ com.example.CARPOOL.DeviceHandlers.Online.LEbeaconActivity
+com/example/CARPOOL/IoTDevices/PairedBLDevice.java
+ com.example.CARPOOL.IoTDevices.PairedBLDevice
+com/example/CARPOOL/DeviceHandlers/Online/BluetoothPairedActivity.java
+ com.example.CARPOOL.DeviceHandlers.Online.BluetoothPairedActivity
+ com.example.CARPOOL.DeviceHandlers.Online.BluetoothPairedActivity$1
+ com.example.CARPOOL.DeviceHandlers.Online.BluetoothPairedActivity$2
+com/example/CARPOOL/IoTDevices/VisualDevice.java
+ com.example.CARPOOL.IoTDevices.VisualDevice
+com/example/CARPOOL/IoTDevices/AudioDevice.java
+ com.example.CARPOOL.IoTDevices.AudioDevice
+com/example/CARPOOL/TryForInternetActivity.java
+ com.example.CARPOOL.TryForInternetActivity
+ com.example.CARPOOL.TryForInternetActivity$1
+com/example/CARPOOL/CommunicationUtils/NetworkUtils.java
+ com.example.CARPOOL.CommunicationUtils.NetworkUtils
+com/example/CARPOOL/PolicyStart.java
+ com.example.CARPOOL.PolicyStart
+com/example/CARPOOL/Bluetooth/EddystoneActivity.java
+ com.example.CARPOOL.Bluetooth.EddystoneActivity
+com/example/CARPOOL/CommunicationUtils/EndProcedure.java
+ com.example.CARPOOL.CommunicationUtils.EndProcedure
+com/example/CARPOOL/CommunicationUtils/LoginProcedure.java
+ com.example.CARPOOL.CommunicationUtils.LoginProcedure
+com/example/CARPOOL/CommunicationUtils/RegisterProcedure.java
+ com.example.CARPOOL.CommunicationUtils.RegisterProcedure
+com/example/CARPOOL/CommunicationUtils/JnIDProcedure.java
+ com.example.CARPOOL.CommunicationUtils.JnIDProcedure
+com/example/CARPOOL/CommunicationUtils/RedboxProcedure.java
+ com.example.CARPOOL.CommunicationUtils.RedboxProcedure
+com/example/CARPOOL/SyncAddrActivity.java
+ com.example.CARPOOL.SyncAddrActivity
+ com.example.CARPOOL.SyncAddrActivity$1
+ com.example.CARPOOL.SyncAddrActivity$1$1
+com/example/CARPOOL/CommunicationUtils/UDPClient.java
+ com.example.CARPOOL.CommunicationUtils.UDPClient

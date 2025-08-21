@@ -1,0 +1,21 @@
+{
+    "Rooms": [
+
+        {
+            "name": "room1",
+            "Devices": [{"name": "A","type": "Visual","status": "online"},{"name": "B","type": "BLE","status": "offline"},{"name": "C","type": "Audio","status": "online"},{"name": "D","type": "Visual","status": "online"},{"name": "E","type": "Audio","status": "online"}],
+            "Policies": [{"policy_number":"1","policy_devices":"BC"},{"policy_number":"2","policy_devices":"BCD"},{"policy_number":"3","policy_devices":"E"}]
+        },
+
+        {
+            "name": "room2",
+            "Devices": [{"name": "A","type": "Visual","status": "online"},{"name": "B","type": "BLE","status": "offline"},{"name": "C","type": "Audio","status": "online"},{"name": "D","type": "Visual","status": "online"}],
+            "Policies": [{"policy_number":"1","policy_devices":"AD"},{"policy_number":"2","policy_devices":"BCD"},{"policy_number":"3","policy_devices":"C"}]
+        },
+        {
+            "name": "room3",
+            "Devices": [{"name": "A","type": "Visual","status": "online"},{"name": "B","type": "BLE","status": "offline"},{"name": "C","type": "Audio","status": "online"},{"name": "D","type": "Visual","status": "online"}],
+            "Policies": [{"policy_number":"1","policy_devices":"AB"},{"policy_number":"2","policy_devices":"ACD"},{"policy_number":"3","policy_devices":"BD"}]
+        }
+    ]
+}

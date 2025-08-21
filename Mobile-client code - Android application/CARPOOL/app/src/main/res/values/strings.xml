@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CARPOOL</string>
+
+    <string-array name="Rooms">
+        <item>Room1</item>
+        <item>Room2</item>
+        <item>Room3</item>
+    </string-array>
+
+
+    <string-array name="policies1">
+        <item>A^B</item>
+        <item>B^C^D</item>
+        <item>E</item>
+    </string-array>
+
+    <string-array name="policies2">
+        <item>A^D</item>
+        <item>B^C^D</item>
+        <item>C</item>
+    </string-array>
+
+    <string-array name="policies3">
+        <item>A^B</item>
+        <item>A^C^D</item>
+        <item>B</item>
+    </string-array>
+
+
+</resources>
