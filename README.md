@@ -3,7 +3,7 @@
 > **Abstract** Multiple authentication solutions are widely deployed, such as OTP/TOTP/HOTP codes, hardware tokens, PINs, or biometrics. However, in practice, one sometimes needs to authenticate not only the user but also their location. The current state-of-the-art secure localisation schemes are either unreliable or insecure, or require additional hardware to reliably prove the user's location. This paper proposes CARPOOL, a novel, secure, and reliable approach to affirm the location of the user by solely relying on location-bounded interactions with commercial off-the-shelf devices. Our solution does not require any additional hardware, leverages devices already present in a given environment, and can be integrated effortlessly with existing security components, such as identity and access control systems. To demonstrate the feasibility of our work and to show that it can be deployed in a realistic closed environment setting, we implemented a proof of concept realisation of CARPOOL on an Android phone and multiple Raspberry Pi boards and integrated CARPOOL with Amazon Web Services (AWS) Cognito.
 
 
-This repository contains the code and resources of our proof-of-concept which supplement our work `CARPOOL`. Below is an overview of the repository contents and structure. Full version of the paper can be found at: https://ia.cr/2025/xxxx
+This repository contains the code and resources of our proof-of-concept which supplement our work `CARPOOL`. Below is an overview of the repository contents and structure. Full version of the paper can be found at: https://ia.cr/2025/1502
 
 
 ## Repository Structure
@@ -130,7 +130,12 @@ The CARPOOL Android application follows these steps:
 If you find this work useful, please consider citing the following paper:
 
 ```bibtex
-@misc{cryptoeprint:2025/xxx,
-
+@misc{cryptoeprint:2025/1502,
+      author = {Sayon Duttagupta and Dave Singelée and Xavier Carpent and Volkan Guler and Takahito Yoshizawa and Seyed Farhad Aghili and Aysajan Abidin and Bart Preneel},
+      title = {{CARPOOL}: Secure And Reliable Proof of Location},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2025/1502},
+      year = {2025},
+      url = {https://eprint.iacr.org/2025/1502}
 }
+
 ```
